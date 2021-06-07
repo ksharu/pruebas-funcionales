@@ -1,0 +1,46 @@
+
+body{
+background-color:rgb(8, 116, 65);
+
+}
+form#pago {
+  margin:auto;
+  background: rgb(8, 116, 65);
+  color: white;
+  font-size: 12px;
+  padding: 30px;
+  width: 350px;
+  border:solid 10px rgb(8, 116, 65);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  }
+  
+  form#pago fieldset {
+  border: none;
+  }
+  
+  form#pago input{
+  font-size:12px;
+  background: yellow;
+  border:solid 1px Green;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  float: right;
+  margin-right: 15px;
+  width: 200px;
+  }
+  
+  form#pago ol li {
+  line-height: 25px;
+  list-style: none;
+  }
+  
+  form#pago [required]{
+  border:solid 1px red;
+  }
+  
+  input:required {
+  outline: 1px solid red;
+  }
